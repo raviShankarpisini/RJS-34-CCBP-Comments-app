@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh ;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.appStore-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-top: 50px;
+}
+.appStore-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+.search-bar {
+  background-color: transparent;
+  width: 35vw;
+  align-self: center;
+}
+.tabItem-container {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+}
+.appItem-container {
+  list-style: none;
+  padding: 0px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.search-icon {
+  height: 25px;
+  margin-left: 20px;
+}

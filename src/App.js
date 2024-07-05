@@ -1,7 +1,7 @@
-import Gallery from "./components/Gallery";
+import AppStore from "./components/AppStore";
 
 import "./App.css";
 
-const App = () => <Gallery />;
+const App = () => <AppStore />;
 
 export default App;

@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.tab-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  margin: 20px;
+}
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0px;
+  border: none;
+}
+.active-tab {
+  border-bottom: 2px solid red;
+  color: blue;
+}
