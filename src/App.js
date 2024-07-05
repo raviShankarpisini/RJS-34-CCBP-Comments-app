@@ -1,7 +1,7 @@
-import AppStore from "./components/AppStore";
+import Comments from './components/Comments'
 
-import "./App.css";
+import './App.css'
 
-const App = () => <AppStore />;
+const App = () => <Comments />
 
-export default App;
+export default App
