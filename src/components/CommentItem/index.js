@@ -2,8 +2,7 @@ import {formatDistanceToNow} from 'date-fns'
 
 import './index.css'
 
-const CommentItem = props => {
-  const {commentDetails} = props
+const CommentItem = ({commentDetails, toggleIsLiked, deleteComment}) => {
   const {id, name, comment, isLiked, initialClassName, date} = commentDetails
   const initial = name ? name[0].toUpperCase() : ''
   const likeTextClassName = isLiked ? 'button active' : 'button'
@@ -13,12 +12,10 @@ const CommentItem = props => {
   const postedTime = formatDistanceToNow(date)
 
   const onClickLike = () => {
-    const {toggleIsLiked} = props
     toggleIsLiked(id)
   }
 
   const onDeleteComment = () => {
-    const {deleteComment} = props
     deleteComment(id)
   }
 
@@ -66,3 +63,4 @@ const CommentItem = props => {
 }
 
 export default CommentItem
+
